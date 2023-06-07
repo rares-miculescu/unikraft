@@ -37,7 +37,7 @@
 #include <uk/config.h>
 #include <uk/asm.h>
 #include <uk/plat/common/lcpu.h>
-#include <x86/cpu_defs.h>
+#include <uk/asm/arch.h>
 #include <kvm-x86/traps.h>
 
 #define SEC_BEGIN(x)		.globl x86_##x##_begin; x86_##x##_begin = .;
