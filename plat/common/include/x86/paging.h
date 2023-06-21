@@ -44,7 +44,7 @@
 
 #include <errno.h>
 
-#include <uk/asm/arch.h>
+#include "cpu_defs.h"
 #include "cpu.h"
 
 /* We do not support 32-bit virtual address spaces as they do not provide
