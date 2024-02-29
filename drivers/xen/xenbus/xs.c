@@ -41,7 +41,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include <stdint.h>
 #include <stdarg.h>
 #include <uk/errptr.h>
 #include <xen/io/xs_wire.h>
